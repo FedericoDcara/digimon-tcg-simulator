@@ -76,7 +76,7 @@ jobs:
         with:
           push: true
           #Set dockerhub project (replace "bartfastiel/java-capstone-project.de-example-app")
-          tags: sonkaito/digimon-tcg-sim:latest
+          tags: fdecara/digimon-tcg-sim:latest
           context: .
 
   deploy:
