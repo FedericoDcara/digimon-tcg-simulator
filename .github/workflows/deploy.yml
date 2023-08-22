@@ -91,7 +91,7 @@ jobs:
           username: cgn-java-23-2-enrico
           password: ${{ secrets.SSH_PASSWORD }}
           #Set App Name (replace "example" with your ssh user name)
-          #Set dockerhub project (replace "bartfastiel/java-capstone-project.de-example-app")
+          #Set dockerhub project (replace "bartfastiel/java-capstone-project.de-example-app") 
           #Set IP (replace "10.0.1.99" with your ip address)
           script: |
             sudo docker stop cgn-java-23-2-enrico
